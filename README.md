@@ -9,7 +9,7 @@ https://ahmedsalem93.github.io/taskManagementApp/
 
 #Used Lazy Loading to improve performance by loading modules only when needed.
 
-# State Management with Services for data handling
+#State Management with Services for data handling
 
 #Added sorting functionality
 
