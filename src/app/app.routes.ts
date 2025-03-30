@@ -20,14 +20,13 @@ const dummyCanMatch: CanMatchFn = (route, segments) => {
 
 export const routes: Routes = [
   {
-    path: '', // <your-domain>/
+    path: '', 
     component: NoTaskComponent,
-    // redirectTo: '/users/u1',
-    // pathMatch: 'full'
+    
     title: 'No task selected',
   },
   {
-    path: 'users/:userId', // <your-domain>/users/<uid>
+    path: 'users/:userId', 
     component: UserTasksComponent,
     loadChildren: () =>
       import('./users/users.routes').then((mod) => mod.routes),
